@@ -1,14 +1,14 @@
 ---
 theme: ./
-title: 'Ventus'
-presenterName: "Zephyr"
+title: 'Tests : End to end'
+presenterName: "Stéphane Pires"
 dateFormat: "fr"
 lineNumbers: true
 monaco: true
 css: windicss
 layout: cover
-src: ./slides/cover.md
-favicon: 'images/favicon.png'
+src: ./slides/presentation/1/cover.md
+favicon: 'images/leakmited-icon.svg'
 presentationTimer:
    end: 1800
    message: 'Should not exceed the timer : '
@@ -24,102 +24,95 @@ src: ./slides/table-of-content.md
 ---
 
 ---
-layout: section
-src: ./slides/sections/0.md
-number: 0
----
-
----
-layout: center
-src: ./slides/without-text.md
----
-
----
-layout: center
-src: ./slides/with-text.md
----
-
----
-layout: center
-src: ./slides/variants.md
----
-
----
-layout: center
-src: ./slides/card.md
----
-
----
-layout: center
-src: ./slides/note.md
+layout: starwars
+src: ./slides/starwars.md
 ---
 
 ---
 layout: section
-src: ./slides/sections/1.md
+src: ./slides/presentation/1/1.md
 number: 1
 ---
 
-
 ---
-layout: default
-src: ./slides/default.md
----
-
----
-layout: cover
-src: ./slides/cover-layout.md
+layout: center
+src: ./slides/presentation/1/what-is-e2e.md
 ---
 
 ---
-layout: intro
-src: ./slides/my-intro.md
-presenterImage: 'images/giphy.webp'
+layout: center
+src: ./slides/presentation/1/code.md
 ---
 
 ---
 layout: quote
-src: ./slides/quote.md
+src: ./slides/presentation/1/quote.md
 ---
 
 ---
-layout: code
-src: ./slides/code.md
----
-
----
-layout: code
-src: ./slides/code-two.md
----
-
----
-layout: punch
-src: ./slides/punch.md
----
-
----
-layout: iframe-left
-src: ./slides/iframe-left.md
-url: https://en.wikipedia.org/wiki/Anemoi
+layout: quote
+src: ./slides/presentation/1/quote-ed.md
 ---
 
 ---
 layout: image-right
-src: ./slides/image-right.md
-image: ./images/picture-tornado.jpeg
+src: ./slides/presentation/1/ci-cd.md
+image: https://snyk.io/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fsnyk%2Fimage%2Fupload%2Fv1530707820%2Fwordpress-sync%2Ffeature-playwright-gh-actions.jpg&w=2560&q=75
 ---
+
+
+---
+layout: section
+src: ./slides/presentation/2/2.md
+number: 2
+---
+
+---
+layout: center
+src: ./slides/presentation/2/generalities.md
+---
+
+---
+layout: center
+src: ./slides/presentation/2/contenders.md
+---
+
+---
+layout: iframe-left
+src: ./slides/presentation/2/isolation.md
+url: https://playwright.dev/docs/browser-contexts
+--- 
+
+---
+layout: iframe-left
+src: ./slides/presentation/2/fixture.md
+url: https://playwright.dev/docs/test-fixtures
+--- 
+
+---
+layout: center
+src: ./slides/presentation/2/fixture-code.md
+--- 
+
+
+---
+layout: iframe-left
+src: ./slides/presentation/2/locator.md
+url: https://playwright.dev/docs/locators
+--- 
+
+---
+layout: center
+src: ./slides/presentation/2/nice-features.md
+--- 
+
+---
+layout: punch
+src: ./slides/presentation/3/punch.md
+--- 
 
 ---
 layout: feedback
----
-
----
-layout: roti
----
-
----
-layout: starwars
-src: ./slides/starwars.md
 ---
 
 ---
